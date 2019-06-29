@@ -33,13 +33,6 @@ public class LevelEditor : MonoSingleton<LevelEditor> {
 		//从Xml文件解析关卡
 		public void ParseXML(string musicName, string difficulty)
 		{
-            Type t = Type.GetType(musicName + difficulty + "Data");
-            System.Object obj = Activator.CreateInstance(t);
-
-            MethodInfo method = t.GetMethod("GetBeatsData");
-            method.Invoke(obj, null);
-
-
             beatsTimingList = new List<float>();
 			spawnTimingList = new List<float>();
 			targetsNumList = new List<int>();

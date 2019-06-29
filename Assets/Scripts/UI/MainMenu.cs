@@ -26,6 +26,9 @@ public class MainMenu : UIScreen {
     private Button btn_Easy;
     private Button btn_Normal;
     private Button btn_Crazy;
+    private Text txt_detailEasy;
+    private Text txt_detailNormal;
+    private Text txt_detailCrazy;
     private Text txt_CoinCost;
     private Text txt_CoinCount;
     private Text txt_Description;
@@ -78,6 +81,9 @@ public class MainMenu : UIScreen {
         btn_Easy = levelButtons.Find("Btn_Easy").GetComponent<Button>();
         btn_Normal = levelButtons.Find("Btn_Normal").GetComponent<Button>();
         btn_Crazy = levelButtons.Find("Btn_Crazy").GetComponent<Button>();
+        txt_detailEasy = menuPanel.Find("Panel_LevelSelection/Panel_Requirement/Img_EasyBG/Text_easyScore").GetComponent<Text>();
+        txt_detailNormal = menuPanel.Find("Panel_LevelSelection/Panel_Requirement/Img_NormalBG/Text_normalScore").GetComponent<Text>();
+        txt_detailCrazy = menuPanel.Find("Panel_LevelSelection/Panel_Requirement/Img_CrazyBG/Text_crazyScore").GetComponent<Text>();
         txt_CoinCost = btn_Buy.GetComponentInChildren<Text>();
         txt_CoinCount = shopPanel.Find("Wallet/Inset/Text_Amount").GetComponent<Text>();
         txt_Description = costPanel.parent.Find("CommodityDescription/Text_Description").GetComponent<Text>();
@@ -117,6 +123,11 @@ public class MainMenu : UIScreen {
 
             });
         }
+    }
+
+    private void OnEnable()
+    {
+        UpdateMusicInfo();
     }
 
     private void UpdateCommidtyToBuyInfo(int cID)
@@ -169,21 +180,11 @@ public class MainMenu : UIScreen {
 		GameManager.instance.GameStart();
 	}
 
+    private int currentMusicID = 1001;
 	public void OnMusicSelectionButton(bool right)
 	{
         AudioManager.instance.PlaySFX(SFXAudio.SFX_BtnClick);
-        if (right)
-		{
-            musicIndex++;
-			if (musicIndex == PlayerModel.songRepository.Count)
-				musicIndex = 0;
-		}
-		else
-		{
-			musicIndex--;
-            if (musicIndex == -1)
-                musicIndex = PlayerModel.songRepository.Count - 1;
-		}
+        currentMusicID = MusicModel.Instance.GetNextMusicID(ref musicIndex, right);
 		UpdateMusicInfo();
 	}
 
@@ -224,16 +225,20 @@ public class MainMenu : UIScreen {
 
 	private void UpdateMusicInfo()
 	{
-        PlayerModel.currentSong = PlayerModel.songRepository[musicIndex];
+        PlayerModel.currentSong = MusicModel.Instance.GetMusicName(currentMusicID);
         string musicName = PlayerModel.currentSong;
 		songName.text = musicName;
-		songCover.sprite = Resources.Load<Sprite>("MusicCover/" + musicName);
+		songCover.sprite = Resources.Load<Sprite>(MusicModel.Instance.GetCoverPath(currentMusicID));
         //根据当前选择的歌曲判断当前的难度是否锁定
         bool normal = PlayerModel.GetUnlockStatsOfSongs(musicName, "Normal");
         bool crazy = PlayerModel.GetUnlockStatsOfSongs(musicName, "Crazy");
 
         normalLock.SetActive(!normal);
         crazyLock.SetActive(!crazy);
+        txt_detailEasy.text = "High Score: \n" + PlayerModel.GetHighScoreData(musicName, "Easy").ToString();
+        txt_detailNormal.GetComponentInChildren<Text>().text = normal ? "High Score: \n" + PlayerModel.GetHighScoreData(musicName, "Normal").ToString() : "Get 1000 points in EASY for NORMAL level!";
+        txt_detailCrazy.GetComponentInChildren<Text>().text = crazy ? "High Score: \n" + PlayerModel.GetHighScoreData(musicName, "Crazy").ToString() : "Get 1500 points in NORMAL for CRAZY level!";
+
         btn_Normal.interactable = normal;
         btn_Crazy.interactable = crazy;
     }

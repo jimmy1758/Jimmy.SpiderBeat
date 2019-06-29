@@ -32,7 +32,7 @@ public class HUD : UIScreen {
     public override void OnScreenEnter()
     {
         base.OnScreenEnter();
-        highScoreText.text = PlayerModel.GetHighScoreData().ToString();
+        highScoreText.text = PlayerModel.GetHighScoreData(PlayerModel.currentSong, PlayerModel.difficulty).ToString();
         scoreText.text = "Score: 0";
         comboText.text = "1 x!";
     }

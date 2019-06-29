@@ -26,9 +26,9 @@ public class GameEnd : UIScreen {
         base.OnScreenEnter();
         int currentSocre = GameManager.instance.score;
         playerScoreText.text = currentSocre.ToString();
-        PlayerModel.SaveHighScoreData(currentSocre);
+        PlayerModel.SaveHighScoreData(currentSocre, PlayerModel.currentSong, PlayerModel.difficulty);
         PlayerModel.SaveCoinsData(currentSocre/10);
-        highScoreText.text = "HighScore: " + PlayerModel.GetHighScoreData().ToString();
+        highScoreText.text = "HighScore: " + PlayerModel.GetHighScoreData(PlayerModel.currentSong, PlayerModel.difficulty).ToString();
         if(currentSocre > 1000)
         {
             PlayerModel.SaveUnlockStatsData(PlayerModel.currentSong, "Normal");

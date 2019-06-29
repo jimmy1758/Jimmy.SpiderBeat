@@ -75,7 +75,7 @@ public class AudioSourceInfo {
 		}
 	}
 
-	private void Update()
+	public void Update()
 	{
 		if(this.audioSource != null && this.Clip != null && this.audioState == AudioState.IsPlaying)
 		{

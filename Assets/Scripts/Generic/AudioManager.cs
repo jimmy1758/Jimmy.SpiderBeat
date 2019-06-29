@@ -38,9 +38,13 @@ public class AudioManager : MonoSingleton<AudioManager> {
         asi_BGM.Stop();
     }
 
-	
+    private void Update()
+    {
+        asi_BGM.Update();
+        asi_UI.Update();
+    }
 
-	public void TogglePauseMusic()
+    public void TogglePauseMusic()
 	{
 		if (asi_BGM.audioState == AudioState.IsPlaying)
 		{

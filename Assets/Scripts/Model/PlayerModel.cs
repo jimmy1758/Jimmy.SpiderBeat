@@ -6,12 +6,6 @@ public static class PlayerModel {
 
     public static string currentSong;
     public static string difficulty;
-    public static List<string> songRepository = new List<string>()
-    {
-        "ThisIsWhatYouCameFor",
-        "Escape",
-        "Rise"
-    };
 
 
     public static bool GetUnlockStatsOfSongs(string songName, string level)
@@ -39,15 +33,15 @@ public static class PlayerModel {
         return true;
     }
 
-    public static int GetHighScoreData()
+    public static int GetHighScoreData(string musicName, string difficulty)
     {
-        return PlayerPrefs.GetInt("HighScore", 0);
+        return PlayerPrefs.GetInt("HighScore" + musicName + difficulty, 0);
     }
 
-    public static void SaveHighScoreData(int newScore)
+    public static void SaveHighScoreData(int newScore, string musicName, string difficulty)
     {
-        if(newScore > GetHighScoreData())
-            PlayerPrefs.SetInt("HighScore", newScore);
+        if(newScore > GetHighScoreData(musicName, difficulty))
+            PlayerPrefs.SetInt("HighScore" + musicName + difficulty, newScore);
     }
 
     public static int GetMaxHpData()
