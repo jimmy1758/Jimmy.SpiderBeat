@@ -10,6 +10,6 @@ Debug/
 
 .git/
 
-.csproj/
+.csproj
 
-.sln/
+.sln
