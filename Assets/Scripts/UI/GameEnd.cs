@@ -29,11 +29,11 @@ public class GameEnd : UIScreen {
         PlayerModel.SaveHighScoreData(currentSocre, PlayerModel.currentSong, PlayerModel.difficulty);
         PlayerModel.SaveCoinsData(currentSocre/10);
         highScoreText.text = "HighScore: " + PlayerModel.GetHighScoreData(PlayerModel.currentSong, PlayerModel.difficulty).ToString();
-        if(currentSocre > 1000)
+        if(currentSocre > 100)
         {
             PlayerModel.SaveUnlockStatsData(PlayerModel.currentSong, "Normal");
         }
-        if(currentSocre > 1500)
+        if(currentSocre > 200)
         {
             PlayerModel.SaveUnlockStatsData(PlayerModel.currentSong, "Crazy");
         }
