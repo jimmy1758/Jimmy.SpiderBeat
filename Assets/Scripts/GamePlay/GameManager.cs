@@ -37,8 +37,6 @@ public class GameManager : MonoSingleton<GameManager> {
 
     protected virtual void Start()
     {
-        PlayerPrefs.SetInt("ThisIsWhatYouCameForCrazy", 1);
-        PlayerPrefs.SetInt("ThisIsWhatYouCameForNormal", 1);
         EventManager.instance.AddListener(EventConst.EVENT_CLICK, ComboNumIncrease);
         EventManager.instance.AddListener(EventConst.EVENT_CLICK, AddScore);
         EventManager.instance.AddListener(EventConst.EVENT_MISS, OnHurt);

@@ -1,0 +1,869 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<beats>
+  
+
+  <beat>
+    <beatTiming>1.48</beatTiming>
+    <targetNum>1</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+
+  <beat>
+    <beatTiming>2.50</beatTiming>
+    <targetNum>4</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+
+  <beat>
+    <beatTiming>4.76</beatTiming>
+    <targetNum>5</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+
+  <beat>
+    <beatTiming>6.30</beatTiming>
+    <targetNum>7</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+  <beat>
+    <beatTiming>8.46</beatTiming>
+    <targetNum>2</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+
+  <beat>
+    <beatTiming>9.51</beatTiming>
+    <targetNum>3</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+
+  <beat>
+    <beatTiming>12.77</beatTiming>
+    <targetNum>0</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+
+  <beat>
+    <beatTiming>14.23</beatTiming>
+    <targetNum>7</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+  <beat>
+    <beatTiming>16.46</beatTiming>
+    <targetNum>1</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+
+  <beat>
+    <beatTiming>18.20</beatTiming>
+    <targetNum>4</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+
+  <beat>
+    <beatTiming>20.71</beatTiming>
+    <targetNum>0</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+
+  <beat>
+    <beatTiming>22.24</beatTiming>
+    <targetNum>3</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+  <beat>
+    <beatTiming>24.44</beatTiming>
+    <targetNum>5</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+
+  <beat>
+    <beatTiming>26.23</beatTiming>
+    <targetNum>2</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+
+  <beat>
+    <beatTiming>28.46</beatTiming>
+    <targetNum>5</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+
+  <beat>
+    <beatTiming>30.20</beatTiming>
+    <targetNum>1</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+  <beat>
+    <beatTiming>32.35</beatTiming>
+    <targetNum>3</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+
+  <beat>
+    <beatTiming>32.80</beatTiming>
+    <targetNum>4</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+
+  <beat>
+    <beatTiming>33.26</beatTiming>
+    <targetNum>6</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+
+  <beat>
+    <beatTiming>36.24</beatTiming>
+    <targetNum>0</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+  <beat>
+    <beatTiming>36.72</beatTiming>
+    <targetNum>2</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+
+  <beat>
+    <beatTiming>37.23</beatTiming>
+    <targetNum>4</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+
+  <beat>
+    <beatTiming>39.70</beatTiming>
+    <targetNum>5</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+
+  <beat>
+    <beatTiming>40.44</beatTiming>
+    <targetNum>3</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+  <beat>
+    <beatTiming>41.29</beatTiming>
+    <targetNum>1</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+
+  <beat>
+    <beatTiming>44.50</beatTiming>
+    <targetNum>2</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+
+  <beat>
+    <beatTiming>44.96</beatTiming>
+    <targetNum>0</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+
+  <beat>
+    <beatTiming>45.43</beatTiming>
+    <targetNum>7</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+  <beat>
+    <beatTiming>48.47</beatTiming>
+    <targetNum>0</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+
+  <beat>
+    <beatTiming>48.99</beatTiming>
+    <targetNum>4</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+
+  <beat>
+    <beatTiming>49.37</beatTiming>
+    <targetNum>5</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+
+  <beat>
+    <beatTiming>52.49</beatTiming>
+    <targetNum>2</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+  <beat>
+    <beatTiming>52.99</beatTiming>
+    <targetNum>3</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+
+  <beat>
+    <beatTiming>53.47</beatTiming>
+    <targetNum>7</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+
+  <beat>
+    <beatTiming>54.48</beatTiming>
+    <targetNum>1</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+
+  <beat>
+    <beatTiming>56.43</beatTiming>
+    <targetNum>0</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+  <beat>
+    <beatTiming>58.32</beatTiming>
+    <targetNum>1</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+
+  <beat>
+    <beatTiming>60.32</beatTiming>
+    <targetNum>3</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+
+  <beat>
+    <beatTiming>62.39</beatTiming>
+    <targetNum>5</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+
+  <beat>
+    <beatTiming>64.38</beatTiming>
+    <targetNum>6</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+  <beat>
+    <beatTiming>66.40</beatTiming>
+    <targetNum>4</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+
+  <beat>
+    <beatTiming>68.37</beatTiming>
+    <targetNum>2</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+
+  <beat>
+    <beatTiming>70.29</beatTiming>
+    <targetNum>5</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+
+  <beat>
+    <beatTiming>72.41</beatTiming>
+    <targetNum>7</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+  <beat>
+    <beatTiming>74.18</beatTiming>
+    <targetNum>1</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+
+  <beat>
+    <beatTiming>76.36</beatTiming>
+    <targetNum>4</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+
+  <beat>
+    <beatTiming>78.17</beatTiming>
+    <targetNum>3</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+
+  <beat>
+    <beatTiming>80.42</beatTiming>
+    <targetNum>0</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+  <beat>
+    <beatTiming>82.22</beatTiming>
+    <targetNum>1</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+
+  <beat>
+    <beatTiming>84.41</beatTiming>
+    <targetNum>4</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+
+  <beat>
+    <beatTiming>86.16</beatTiming>
+    <targetNum>6</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+
+  <beat>
+    <beatTiming>88.36</beatTiming>
+    <targetNum>7</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+  <beat>
+    <beatTiming>90.17</beatTiming>
+    <targetNum>0</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+
+  <beat>
+    <beatTiming>92.40</beatTiming>
+    <targetNum>2</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+
+  <beat>
+    <beatTiming>92.83</beatTiming>
+    <targetNum>5</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+
+  <beat>
+    <beatTiming>93.28</beatTiming>
+    <targetNum>3</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+  <beat>
+    <beatTiming>96.24</beatTiming>
+    <targetNum>1</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+
+  <beat>
+    <beatTiming>96.76</beatTiming>
+    <targetNum>7</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+
+  <beat>
+    <beatTiming>97.24</beatTiming>
+    <targetNum>6</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+
+  <beat>
+    <beatTiming>99.62</beatTiming>
+    <targetNum>4</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+  <beat>
+    <beatTiming>100.41</beatTiming>
+    <targetNum>1</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+
+  <beat>
+    <beatTiming>100.98</beatTiming>
+    <targetNum>4</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+
+  <beat>
+    <beatTiming>101.21</beatTiming>
+    <targetNum>5</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+
+  <beat>
+    <beatTiming>104.55</beatTiming>
+    <targetNum>6</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+  <beat>
+    <beatTiming>105</beatTiming>
+    <targetNum>7</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+
+  <beat>
+    <beatTiming>105.5</beatTiming>
+    <targetNum>4</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+
+  <beat>
+    <beatTiming>108.51</beatTiming>
+    <targetNum>5</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+
+  <beat>
+    <beatTiming>109.01</beatTiming>
+    <targetNum>2</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+  <beat>
+    <beatTiming>109.24</beatTiming>
+    <targetNum>3</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+
+  <beat>
+    <beatTiming>112.52</beatTiming>
+    <targetNum>4</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+
+  <beat>
+    <beatTiming>113</beatTiming>
+    <targetNum>6</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+
+  <beat>
+    <beatTiming>113.5</beatTiming>
+    <targetNum>7</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+  <beat>
+    <beatTiming>114.5</beatTiming>
+    <targetNum>5</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+
+  <beat>
+    <beatTiming>116.47</beatTiming>
+    <targetNum>2</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+
+  <beat>
+    <beatTiming>116.7</beatTiming>
+    <targetNum>3</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+
+  <beat>
+    <beatTiming>118.48</beatTiming>
+    <targetNum>1</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+  <beat>
+    <beatTiming>118.69</beatTiming>
+    <targetNum>1</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+
+  <beat>
+    <beatTiming>120.43</beatTiming>
+    <targetNum>7</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+
+  <beat>
+    <beatTiming>120.64</beatTiming>
+    <targetNum>5</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+
+  <beat>
+    <beatTiming>122.42</beatTiming>
+    <targetNum>6</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+  <beat>
+    <beatTiming>124.49</beatTiming>
+    <targetNum>1</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+
+  <beat>
+    <beatTiming>124.68</beatTiming>
+    <targetNum>4</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+
+  <beat>
+    <beatTiming>126.49</beatTiming>
+    <targetNum>2</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+
+  <beat>
+    <beatTiming>126.67</beatTiming>
+    <targetNum>3</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+  <beat>
+    <beatTiming>128.44</beatTiming>
+    <targetNum>7</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+  <beat>
+    <beatTiming>128.67</beatTiming>
+    <targetNum>2</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+  <beat>
+    <beatTiming>130.43</beatTiming>
+    <targetNum>3</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+  <beat>
+    <beatTiming>132.53</beatTiming>
+    <targetNum>0</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+  <beat>
+    <beatTiming>134.27</beatTiming>
+    <targetNum>7</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+  <beat>
+    <beatTiming>136.15</beatTiming>
+    <targetNum>0</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+  <beat>
+    <beatTiming>138.17</beatTiming>
+    <targetNum>6</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+  <beat>
+    <beatTiming>140.48</beatTiming>
+    <targetNum>3</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+  <beat>
+    <beatTiming>140.92</beatTiming>
+    <targetNum>4</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+  <beat>
+    <beatTiming>141.22</beatTiming>
+    <targetNum>2</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+  <beat>
+    <beatTiming>143.75</beatTiming>
+    <targetNum>7</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+  <beat>
+    <beatTiming>144.45</beatTiming>
+    <targetNum>0</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+  <beat>
+    <beatTiming>144.86</beatTiming>
+    <targetNum>7</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+  <beat>
+    <beatTiming>145.23</beatTiming>
+    <targetNum>3</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+  <beat>
+    <beatTiming>146.48</beatTiming>
+    <targetNum>2</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+  <beat>
+    <beatTiming>148.5</beatTiming>
+    <targetNum>5</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+  <beat>
+    <beatTiming>148.87</beatTiming>
+    <targetNum>6</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+  <beat>
+    <beatTiming>149.28</beatTiming>
+    <targetNum>1</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+  <beat>
+    <beatTiming>150.52</beatTiming>
+    <targetNum>0</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+  <beat>
+    <beatTiming>152.48</beatTiming>
+    <targetNum>7</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+  <beat>
+    <beatTiming>152.86</beatTiming>
+    <targetNum>3</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+  <beat>
+    <beatTiming>153.20</beatTiming>
+    <targetNum>5</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+  <beat>
+    <beatTiming>154.43</beatTiming>
+    <targetNum>6</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+  <beat>
+    <beatTiming>156.51</beatTiming>
+    <targetNum>8</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+  <beat>
+    <beatTiming>157.01</beatTiming>
+    <targetNum>2</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+  <beat>
+    <beatTiming>157.26</beatTiming>
+    <targetNum>1</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+  <beat>
+    <beatTiming>160.53</beatTiming>
+    <targetNum>6</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+  <beat>
+    <beatTiming>161.01</beatTiming>
+    <targetNum>7</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+  <beat>
+    <beatTiming>161.47</beatTiming>
+    <targetNum>1</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+  <beat>
+    <beatTiming>164.53</beatTiming>
+    <targetNum>5</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+  <beat>
+    <beatTiming>165.02</beatTiming>
+    <targetNum>0</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+  <beat>
+    <beatTiming>165.25</beatTiming>
+    <targetNum>2</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+  <beat>
+    <beatTiming>168.48</beatTiming>
+    <targetNum>3</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+  <beat>
+    <beatTiming>168.98</beatTiming>
+    <targetNum>7</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+  <beat>
+    <beatTiming>169.48</beatTiming>
+    <targetNum>3</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+  <beat>
+    <beatTiming>170.47</beatTiming>
+    <targetNum>4</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+  <beat>
+    <beatTiming>172.44</beatTiming>
+    <targetNum>0</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+  <beat>
+    <beatTiming>172.62</beatTiming>
+    <targetNum>2</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+  <beat>
+    <beatTiming>174.39</beatTiming>
+    <targetNum>1</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+  <beat>
+    <beatTiming>176.35</beatTiming>
+    <targetNum>6</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+  <beat>
+    <beatTiming>176.54</beatTiming>
+    <targetNum>5</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+  <beat>
+    <beatTiming>178.40</beatTiming>
+    <targetNum>7</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+  <beat>
+    <beatTiming>180.4</beatTiming>
+    <targetNum>2</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+  <beat>
+    <beatTiming>180.57</beatTiming>
+    <targetNum>3</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+  <beat>
+    <beatTiming>182.32</beatTiming>
+    <targetNum>4</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+  <beat>
+    <beatTiming>184.41</beatTiming>
+    <targetNum>0</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+  <beat>
+    <beatTiming>184.67</beatTiming>
+    <targetNum>1</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+  <beat>
+    <beatTiming>186.38</beatTiming>
+    <targetNum>7</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+  <beat>
+    <beatTiming>188.46</beatTiming>
+    <targetNum>2</targetNum>
+    <beatSpeed>10</beatSpeed>
+  </beat>
+
+  
+  
+</beats>

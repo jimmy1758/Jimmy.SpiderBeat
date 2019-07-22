@@ -30,6 +30,7 @@ public class UIManager : MonoSingleton<UIManager>
 	private void Start()
 	{
 		Push(typeof(MainMenu));
+
 	}
 
 	public T Push<T>() where T : UIScreen

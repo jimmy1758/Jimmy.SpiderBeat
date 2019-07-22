@@ -60,10 +60,11 @@ public class AudioManager : MonoSingleton<AudioManager> {
 
 public enum MusicAudio
 {
-    Tutorial,
+	
+	Tutorial,
     ThisIsWhatYouCameFor,
-    Rise,
-    Escape
+    Maps,
+    Warriors
 }
 
 public enum SFXAudio

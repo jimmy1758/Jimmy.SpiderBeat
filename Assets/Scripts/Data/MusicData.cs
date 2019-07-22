@@ -12,8 +12,8 @@ public class MusicData : Singleton<MusicData>
     public Dictionary<int, Dictionary<string, string>> data = new Dictionary<int, Dictionary<string, string>>()
     {
         {1001, new Dictionary<string, string>(){ {"MusicName", "ThisIsWhatYouCameFor"}, {"CoverPath", "MusicCover/ThisIsWhatYouCameFor"}, {"EasyPath", "SoneBeatsData/ThisIsWhatYouCameFor_Easy"}, {"NormalPath", "SoneBeatsData/ThisIsWhatYouCameFor_Normal"}, {"CrazyPath", "SoneBeatsData/ThisIsWhatYouCameFor_Crazy"}, } },
-        {1002, new Dictionary<string, string>(){ {"MusicName", "Rise"}, {"CoverPath", "MusicCover/Rise"}, {"EasyPath", ""}, {"NormalPath", ""}, {"CrazyPath", ""}, } },
-        {1003, new Dictionary<string, string>(){ {"MusicName", "Escape"}, {"CoverPath", "MusicCover/Escape"}, {"EasyPath", ""}, {"NormalPath", ""}, {"CrazyPath", ""}, } },
+        {1002, new Dictionary<string, string>(){ {"MusicName", "Maps"}, {"CoverPath", "MusicCover/Maps"}, {"EasyPath", "SoneBeatsData/Maps_Easy"}, {"NormalPath", "SoneBeatsData/Maps_Normal"}, {"CrazyPath", "SoneBeatsData/Maps_Crazy"}, } },
+        {1003, new Dictionary<string, string>(){ {"MusicName", "Warriors"}, {"CoverPath", "MusicCover/Warriors"}, {"EasyPath", "SoneBeatsData/Warriors_Easy"}, {"NormalPath", "SoneBeatsData/Warriors_Normal"}, {"CrazyPath", "SoneBeatsData/Warriors_Crazy"}, } },
     };
 
 }
